@@ -4,8 +4,8 @@
 
 class Solution
 {
-	public:
-	//Function to find sum of weights of edges of the Minimum Spanning Tree.
+    public:
+    //Function to find sum of weights of edges of the Minimum Spanning Tree.
     int spanningTree(int V, vector<vector<int>> adj[])
     {
         
@@ -66,5 +66,5 @@ int main()
         }
         
         Solution obj;
-    	cout << obj.spanningTree(V, adj) << "\n";
+        cout << obj.spanningTree(V, adj) << "\n";
     }
